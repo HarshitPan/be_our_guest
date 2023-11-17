@@ -1,0 +1,239 @@
+.container{
+    display: relative;
+    display: flex;
+    flex-direction: column ;
+}
+.Header{
+    padding-left:3vh;
+    background-color: rgb(94, 91, 91);
+    color: aqua;
+    height: 12vh;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Nav{
+    display: flex;
+    height: 6vh;
+    background-color: rgb(39, 28, 28);
+    border-top: solid 2px orange;
+    color: wheat;
+    font-size: 25px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+}
+.Nav label{
+    cursor: pointer;
+    padding: 15px;
+    padding-left:25px;
+    border-radius: 20px 0 0 0;
+    padding-right: 25px;
+    border-right: solid 2px orange;
+    transition: all .2s ease-in;
+}
+.Nav label:hover{
+    background-color: skyblue;
+    color: black;
+}
+.Search{
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    border-top: solid 2px orange;
+    align-items: center;
+    background-color: blue;
+}
+.search-bar{
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    align-items: center;
+}
+.search-bar input{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px 0 0px 0px;
+    font-size: 20px;
+    padding-left:10px ;
+    box-shadow: 5px 5px 10px 4px rgb(58, 56, 56);
+}
+.filter-button{
+    padding:10px;
+    margin: 20px;
+    cursor: pointer;
+    color: white;
+    border-radius:0 0 40px 40px;
+    font-size: 20px;
+    align-self: flex-end;
+    height: 100%;
+    background-color: green;
+    box-shadow: 0 4px 10px 5px rgb(58, 56, 56);
+}
+/* 
+.search-button{
+    background-color: green;
+    font-size: 20px;
+    padding:8px;
+    margin-left: 3px;
+    cursor: pointer;
+    color: white;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 5px 5px 10px 4px rgb(58, 56, 56);
+} */
+#Filter {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 0%;
+    flex-direction: row;
+    overflow: hidden;
+    color: white;
+    margin-bottom: 20px;
+    z-index: 1;
+    border-top: solid 3px black;
+    font-weight: bold;
+    background-color: blue;
+    transition: height 1s ease-in-out;
+}
+.filter-option{
+    display: flex;
+
+    flex-direction: column;
+
+    margin:20px;
+    font-size: 20px;
+}
+.filter-option input{
+    font-size: 20px;
+    box-shadow: 2px 2px 10px 2px rgb(58, 56, 56);
+}
+.pos-relative{
+    position:relative;
+    display: flex;
+}
+.result{
+    flex-grow: 1;
+    max-height: 69vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.Databox{
+    cursor: pointer;
+    background-color: aqua;
+    padding-left: 10px;
+    box-shadow: 5px 5px 10px 8px rgb(58, 56, 56);
+    border-radius: 30px 0 0 0;
+    max-height: 20vh;
+    margin-top:20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin-left:30px;
+    margin-right: 30px;
+    transition: transform .3s ease-in-out;
+}
+.Databox:hover{
+    transform: scale(1.03);
+}
+.Databox h3{
+    font-size: x-large;
+    padding: 10px;
+    font-weight: 500;
+    padding-left: 15px;
+    border-radius: 20px 0 0 0;
+    box-shadow: -3px 3px 20px 2px rgb(58, 56, 56);
+    margin-top: 15px;
+    /* border-left: solid 3px green;
+    border-bottom: solid px green; */
+    margin-bottom: none;
+    color: rgb(67, 22, 22);
+    background-color: white;
+}
+.Databox p{
+    margin-top:-15px;
+    font-size: large;
+    font-weight:500;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: -15px;
+
+}
+
+.new-window{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    overflow: hidden;
+    z-index: 1;
+    opacity: 0.8;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.whiteboard{
+    overflow: auto;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:90%;
+    height: 90%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    font-size:large;
+    opacity: 1;
+    background-color: white;
+}
+.task-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom:solid 5px black;
+}
+.task-bar label{
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    padding-left:  6px;
+    padding-right: 6px;
+    border-radius: 10px;
+    margin: 5px;
+    font-weight:bolder;
+    color: white;
+    background-color: rgb(224, 63, 63);
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+
+}
+.data{
+    display: flex;
+    border:solid 1px black;
+    align-items: center;
+
+}
+.data h4{
+    color: darkblue;
+    font-size: large;
+    font-weight: 450;
+    width: 10vh;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.data h3{
+    color: darkblue;
+    font-size: large;
+    font-weight: 450;
+    width: 90vh;
+    padding-left: 40px;
+    padding-right: 40px;
+}

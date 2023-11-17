@@ -1,0 +1,51 @@
+[
+    {
+        "Name":"First Planner",
+        "Desc":" this is first planner and this is its description which i am writing to elaborate this description r and this is its description which i am writing to elaborate this descriptionr and this is its description which i am writing to elaborate this descriptionr and this is its description which i am writing to elaborate this descriptionr and this is its description which i am writing to elaborate this descriptionr and this is its description which i am writing to elaborate this descriptionr and this is its description which i am writing to elaborate this descriptionr and this is its description which i am writing to elaborate this description",
+        "Price":1000000,
+        "location":"Dehradun"
+    },
+    {
+        "Name":"Second Planner",
+        "Desc":" this is second planner and this is its description which i am writing to elaborate this description",
+        "Price":5000000,
+        "location":"Delhi"
+    },
+    {
+        "Name":"Second Planner",
+        "Desc":" this is second planner and this is its description which i am writing to elaborate this description",
+        "Price":5000000,
+        "location":"Delhi"
+    },
+    {
+        "Name":"Second Planner",
+        "Desc":" this is second planner and this is its description which i am writing to elaborate this description",
+        "Price":5000000,
+        "location":"Delhi"
+    },
+    {
+        "Name":"Second Planner",
+        "Desc":" this is second planner and this is its description which i am writing to elaborate this description",
+        "Price":5000000,
+        "location":"Delhi"
+    },
+    {
+        "Name":"Third Planner",
+        "Desc":" this is third planner",
+        "Price":500000,
+        "location":"Mumbai"
+    },
+    {
+        "Name":"Forth Planner",
+        "Desc":" this is forth planner",
+        "Price":10000000,
+        "location":"Kolkata"
+    },
+    {
+        "Name":"Fifth Planner",
+        "Desc":" this is fifth planner and this is its description which i am writing to elaborate this description",
+        "Price":7000000,
+        "location":"Bengluru"
+    }
+
+]
